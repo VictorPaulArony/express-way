@@ -1,0 +1,87 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("image/logo.jpg");
+   
+}
+.nav{
+    padding: 25px;
+    margin: 20px;
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+button #admin{
+    padding: 20px;
+    margin: 10px;
+}
+h3{
+    color: bisque;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+body::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 45, 44, 0.5);
+    z-index: -1;
+  }
+.container{
+display: flex;    
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
+flex-direction: column;
+flex-wrap: wrap;
+}
+h2{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ebc20b;
+    text-shadow: 0 0 20px #07d3ee;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+li button {
+    margin-right: 10px;
+}
+
+button a {
+    background-color: #007bff;
+    color: #111111;
+    border: none;
+    
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius:15px;
+    box-shadow: 0 0 10px #eeea07 ;
+    transition: all 1s ease;
+}
+
+button a:hover {
+    background-color: #032f5f;
+}
